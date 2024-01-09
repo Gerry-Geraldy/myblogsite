@@ -1,0 +1,14 @@
+[debug] [2024-01-09T13:45:33.056Z] ----------------------------------------------------------------------
+[debug] [2024-01-09T13:45:33.060Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\axioo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2024-01-09T13:45:33.060Z] CLI Version:   13.0.2
+[debug] [2024-01-09T13:45:33.061Z] Platform:      win32
+[debug] [2024-01-09T13:45:33.061Z] Node Version:  v19.8.1
+[debug] [2024-01-09T13:45:33.061Z] Time:          Tue Jan 09 2024 21:45:33 GMT+0800 (Central Indonesia Time)
+[debug] [2024-01-09T13:45:33.061Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-09T13:45:33.153Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-09T13:45:33.154Z] > authorizing via signed-in user (whateveritakes10@gmail.com)
+[debug] [2024-01-09T13:45:33.154Z] [iam] checking project myblogsite-9930a for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-09T13:45:33.157Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/myblogsite-9930a:testIamPermissions [none]
+[debug] [2024-01-09T13:45:33.157Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/myblogsite-9930a:testIamPermissions x-goog-quota-user=projects/myblogsite-9930a
+[debug] [2024-01-09T13:45:33.157Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/myblogsite-9930a:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
